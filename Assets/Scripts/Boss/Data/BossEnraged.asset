@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 712bb7af8d28ddf4ababcfbb7c198f09, type: 3}
+  m_Name: BossEnraged
+  m_EditorClassIdentifier: 
+  collisionDamage: 0
+  collisionKnockback: 0
+  healthPercentageToEnterEnragedPhase: 0
+  bossDeathSound: {fileID: 8300000, guid: c94505c8f7e0b33499a84fc46b88b64c, type: 3}
+  bossVictorySound: {fileID: 8300000, guid: 646829a9868db614fad339d4b780e177, type: 3}
+  chaseAccelerationRate: 125
+  maxChaseSpeed: 8.6
+  distanceToTriggerAttack: 2
+  swordAttackChargeSpeed: 5
+  swordAttackDamage: 25
+  swordAttackPoint: {x: 0.88, y: 0.13}
+  swordAttackSize: {x: 1.78, y: 1.03}
+  swordAttackKnockback: 12
+  afterSwordSwingSlideSpeed: 75
+  swordCastSound: {fileID: 8300000, guid: d7d8ce316dbc64049926b0889eb2b084, type: 3}
+  specialGeneralCooldownDuration: 0.5
+  distanceToTriggerBow: 6
+  bowAttackChargeSpeed: 4
+  arrowDamage: 15
+  arrowKnockback: 7
+  arrowSpeed: 14
+  arrowSpawnOffset: {x: 0.63, y: 0.39}
+  bowCooldownDuration: 5
+  bowStartingDisableDuration: 5
+  amountOfShootRepeats: 1
+  percentegeChanceForAdditionalRepeat: 63
+  bowChargeSound: {fileID: 8300000, guid: 053c79cab95c2404a870dcf48a5b2227, type: 3}
+  bowCastSound: {fileID: 8300000, guid: 8905dffe9bdee8e4e9034ec5cb218ffa, type: 3}
+  spearAttackChargeSpeed: 2
+  spearAttackDamage: 35
+  spearAttackDashSpeed: 21
+  spearAttackKnockback: 14
+  spearCooldownDuration: 15
+  spearStartingDisableDuration: 16
+  afterSpearDashSlideSpeed: 55
+  numberOfSwordStatesToForceSpearState: 2
+  spearAttackPoint: {x: 0.88, y: 0.13}
+  spearAttackSize: {x: 1.78, y: 1.03}
+  spearCastSound: {fileID: 8300000, guid: 21db2aff9496d5d44a2076b351832dc4, type: 3}
+  orderCatapultShotChargeSpeed: 1
+  delayBeforeRockFalls: 1.4
+  extraDangerZoneForEachSide: 6
+  offsetBetweenDangerZones: 5
+  boulderDamage: 40
+  orderCatapultShotCooldownDuration: 17
+  orderCatapultShotStartingDisableDuration: 14
+  orderCatapultSound: {fileID: 8300000, guid: 09faf9f1ab9c2c34d9baa1f71c78d6dd, type: 3}
+  boulderCrushedSound: {fileID: 8300000, guid: 71d204998df6deb40ac7da2c798fcfbc, type: 3}

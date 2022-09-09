@@ -1,0 +1,16 @@
+{
+    "name": "Statics",
+    "rootNamespace": "",
+    "references": [
+        "GUID:9b1fbc2fb4c330540af0c73af0d5f85b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
